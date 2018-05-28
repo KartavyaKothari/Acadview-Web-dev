@@ -5,3 +5,27 @@ https://drive.google.com/file/d/1beoNKAyV3bHxlqkHf9Gn2AqYM4v4FD4Y/
 Live version can be found here 
 
 http://acadview-webd-assignment1.surge.sh/
+
+Steps 1: use <nav> </nav> for navigation
+e.g 
+<nav>
+	<ul>
+		<li>link 1</li>
+		<li>link 2</li>
+		..
+		..
+		..
+		<li>link n</li>
+	</ul>
+</nav>
+
+Steps 2: use heading tag for different titles of recipes
+e.g <h2>Soup</h2>
+
+use <img src="image path"> for images
+
+and finally use ordered list or unordered list for recipie steps and ingridients
+
+<ol>
+	<li></li>
+</ol>
