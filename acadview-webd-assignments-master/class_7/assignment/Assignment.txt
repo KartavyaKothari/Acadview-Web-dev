@@ -5,7 +5,7 @@ Live version here
 Step1:webpage Button 
 	Create A Button 
 	Syntax 
-	 <button onclick="calculateSquare();">click me</button>
+	 <button onclick="call the function here">click me</button>
 
 Step2:javaScript function 
 
@@ -13,9 +13,8 @@ function calculateSquare() {
       // THIS WILL DISPLAY A MESSAGE IN THE DEVTOOL CONSOLE
       console.log("Value of x is : " + x);
       
-      document.body.innerHTML += "<p>The square of " + x + " = " + x * x + "</p>";
-    } 
-
+      update the square of x in html body tag with .innerHtml method
+	}
 Step: 3 try to change value in  console 
 open console window in browser and change the varive value and run it 
 
