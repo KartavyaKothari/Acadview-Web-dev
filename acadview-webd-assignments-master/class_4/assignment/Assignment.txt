@@ -1,4 +1,5 @@
-Let’s improve our Assignment 2 with the help of bootstrap layout and grid system. Your output should look like this.
+﻿‬Let’s improve our Assignment 2 with the help of bootstrap layout and grid system.
+ Your output should look like this.
 
 https://drive.google.com/file/d/1KMHt3s4PtUQco8-a843rHvaW3XJtfD8-
 
@@ -8,8 +9,50 @@ step 1 - Clone the basic bootstrap template by followin command -
 
 git clone https://github.com/BlackrockDigital/startbootstrap-bare.git assignment4
 
-this will download (clone) minimum code in assignment4 folder. go ahead and edit the code in index.html to acheive the required output.
+this will download (clone) minimum code in assignment4 folder. go ahead and edit 
+the code in index.html to acheive the required output.
 
 Live version here
+
+
+Step1: Navbar
+ 
+ Documentation and examples for Bootstrap’s powerful, responsive navigation header, the navbar. Includes support for branding, navigation,
+
+ and more, including support for our collapse plugin
+e.g. goto link more about navbar https://getbootstrap.com/docs/4.1/components/navbar/
+
+
+Step2: Text alignment
+
+ Easily realign text to components with text alignment classes.
+
+ For left, right, and center alignment, responsive classes are available that use the same viewport width breakpoints as the grid system.
+
+ More about text alignment goto link https://getbootstrap.com/docs/4.1/utilities/text/#text- alignment
+
+Step2: Example with list-group 
+ 
+  Scrollspy also works with .list-groups. Scroll the area next to the list group and watch   the active class change.
+
+  Syntax : <div id="list-example" class="list-group"> 
+          Item 1 some paragraph
+          <a class="list-group-item list-group-item-action" href="#list-item-1">Item 1</a>
+
+  more about goto link https://getbootstrap.com/docs/4.1/components/scrollspy/#example-  with-list-group
+
+step3: page layout
+ 
+  How it works
+	 
+  Bootstrap’s grid system uses a series of containers, rows, and columns to layout and   align content.
+
+  It’s built with flexbox and is fully responsive. Below is an example and an in-depth look   at how the grid comes together.
+
+  all setup raw and colum page layout 
+
+live demo here all navbar, text, list, group and page view 
+
+https://getbootstrap.com/docs/4.1/layout/grid/#how-it-works
 
 http://acadview-webd-assignment4.surge.sh/

@@ -8,6 +8,14 @@ navigate inside SampleGame folder just downloaded and Try to draw a small monste
 
 Note: Find TODO comment in index.html and scripts.js for help
 
+TODO1 (index.html): load image 
+	<img src="image path here">
+
+TODO2(scripts.js): load image
+	document.querySelector("image id");
+	then draw image in canvas with drawImage() -method
+
+
 Live version here
 
 http://acadview-webd-assignment11.surge.sh/
