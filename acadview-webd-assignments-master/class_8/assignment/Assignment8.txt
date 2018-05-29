@@ -1,5 +1,29 @@
-write a piece of code that solves second degree equations. You pass the a, b, c parameters of: ax2 + bx + c, and the solve function will compute delta = b2 - 4a*c. Test the sign of delta, and if it's equal to zero, then display (in the console, or better, in the page) the roots of the equation.
+write a piece of code that solves second degree equations. You pass the a, b, c parameters of: ax²+bx+c, and the solve function will compute delta = b2 - 4a*c. Test the sign of delta, and if it's equal to zero, then display (in the console, or better, in the page) the roots of the equation.
 
 Live version here
+
+Step1: Here is a simple javascript that solves quadratic equations of the form ax²+bx+c = 	O. You just have to specify the values of a ,b and c and the script then calculates 	the two real roots alpha(x1) and beta (x2)  of the equation. The script also tells 	you if the equation has a real root or not, depending upon the value of D 	(Discriminant). The equation is solved using the quadratic formula x = -b±(b²-	4ac)½/2a
+
+Step:2 fill the value of A, B, and C
+	function init(){
+    coefA = document.querySelector("#valueA");
+    coefB = document.querySelector("#valueB");
+    coefC = document.querySelector("#valueC");
+    result = document.querySelector("#result");
+    }
+
+Step3: function updateEquation(){
+    document.getElementById("a").innerHTML = coefA.value==1?"":coefA.value;
+    document.getElementById("b").innerHTML = coefB.value==1?"":coefB.value;
+    document.getElementById("c").innerHTML = coefC.value;
+    }
+
+Step4: Solve Equation
+ compare all element with if else condition in code
+
+Step5: function getDiscriminant
+	function getDiscriminant(a, b, c){
+    	return Math.pow(b, 2)-4*a*c;
+    	}
 
 http://acadview-webd-assignment8.surge.sh/
