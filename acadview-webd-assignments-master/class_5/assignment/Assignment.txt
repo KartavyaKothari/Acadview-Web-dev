@@ -1,5 +1,49 @@
 Create a JavaScript function named greetingJavascript, which will accept a message and display that message in developer console. Try to test your program first in browser console before submiting it for evaluation.
 
-Live version here
+Live version here 
 
+Step:1 Function 
+
+	A function is a group of instructions that performs a particular task.
+
+	Here's a basic example of a function.
+
+      function grettingJavaScript()
+	{
+    	console.log("Message !");
+        }
+
+	console.log("Start of program");
+	grettingJavaScript();
+	console.log("End of program");
+
+		Declaring a function
+
+	Check out the first lines of the example above
+
+	syntax function grettingJavaScript()     ///grettingJavaScript its function name 	you can write  any name here
+ 	{
+    	console.log("Message !");
+ 	}
+	This creates a function called grettingJavaScript(). It consists of only one 	statement that will make a message appear in the console: "Message !"
+
+
+Step2: Creating a function is called declaration:
+
+
+	The declaration of a function is performed using the JavaScript keyword function, 	followed by the function name and a pair of parentheses. Instructions that make up 	the function constitute the body of the function. These instructions are enclosed 	in curly braces and indented.
+
+	console.log("Start of program");
+	grettingJavaScript();
+	console.log("End of program");
+
+	The first and third statements explicitly display messages in the console. The 	second line makes a call to the function grettingJavaScript() .
+
+	You can call a function by writing the name of the function followed by a pair of 	parentheses. 
+
+	// ...
+	grettingjavaScript(); // Call myFunction
+	// ...
+
+Live Demo Here open link see code 
 http://acadview-webd-assignment5.surge.sh/
