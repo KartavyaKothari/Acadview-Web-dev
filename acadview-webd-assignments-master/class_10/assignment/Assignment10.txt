@@ -1,5 +1,27 @@
 Write a small contact manager. User should be able to input his/her name and contact no in the text box and it should be added/saved in a list. Additionally use bootstrap library for proper layout and styling.
 
+Step1: Input name and contact
+	create a function for adding name and contact 
+	by syntax
+	// get the current value of the input field
+  	var val = document.querySelector('#newNumber').value;
+
+Stap2: added name and contact in list 
+	// val exists and non empty
+    	// get the list of contacts. It's a <ul>
+    	var ul = document.querySelector("#numbers");
+
+Step3: Button for Add to the contact book
+	create two button one for adding  name and contact in contact book another 	for reset the name and contact  
+	syntax: <button onclick= "call function here"</button>
+step4: saved list  and reset
+	create function add and call add for saving and call for show the record
+	another functuon empty for reset list
+	// reset it: no children
+       ul.innerHTML = ""; 
+
 Live version here
 
 http://acadview-webd-assignment10.surge.sh/
+
+
