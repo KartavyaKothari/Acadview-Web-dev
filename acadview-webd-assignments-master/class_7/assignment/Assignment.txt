@@ -2,4 +2,24 @@ create a webpage with a button and a javascript function calculateSquare() shoul
 
 Live version here
 
+Step1:webpage Button 
+	Create A Button 
+	Syntax 
+	 <button onclick="calculateSquare();">click me</button>
+
+Step2:javaScript function 
+
+function calculateSquare() {
+      // THIS WILL DISPLAY A MESSAGE IN THE DEVTOOL CONSOLE
+      console.log("Value of x is : " + x);
+      
+      document.body.innerHTML += "<p>The square of " + x + " = " + x * x + "</p>";
+    } 
+
+Step: 3 try to change value in  console 
+open console window in browser and change the varive value and run it 
+
+see the changes in output by refreshing page
+
+
 http://acadview-webd-assignment7.surge.sh/
