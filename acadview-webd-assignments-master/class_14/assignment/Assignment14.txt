@@ -5,6 +5,29 @@ git clone https://github.com/kumarsandeep91/JSObjectDemo.git
 Step 2: navigate inside downloaded folder and open scripts.js file.
 Follow the TODO comment instructions to complete this task.
 
+TODO :  create a object of your choice with required properties and methods to describe yourself like name, age, address, etc
+
+
+create your own object use properity and method
+
+syntax :
+	var obj_name = {
+		key: value,    
+		key: calue,
+	}
+	The values are written as name:value pairs (name and value separated by a         colon).
+
+	E.g - 
+	var person = {
+		firstName:"John",
+	 	lastName:"Doe", 
+		age:50,
+		eyeColor:"blue",
+		introduceYourself: function(){
+			return "First name " + firstName;
+		}
+	}
+
 Live version here
 
 http://acadview-webd-assignment14.surge.sh/
