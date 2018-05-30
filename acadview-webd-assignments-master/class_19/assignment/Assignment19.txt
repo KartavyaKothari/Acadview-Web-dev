@@ -6,6 +6,29 @@ Step 2: Inside PersistanceDemo folder just downloaded/cloned you will find that 
 
 Now your task is to improve this so that contacts can be saved in localStorage in the browser when we click add contact button.
 
+Explaination :
+		The localStorage  properties allow to save key/value pairs in a 	web browser.
+	
+	The localStorage object stores data with no expiration date. The data will 	not be deleted when the browser is closed, and will be available the next 	day, week, or year.
+
+	
+	Syntax
+
+	window.localStorage
+
+	Syntax for SAVING data to localStorage:
+
+	localStorage.setItem("key", "value");
+
+	Syntax for READING data from localStorage:
+
+	var lastname = localStorage.getItem("key");
+
+	Syntax for REMOVING data from localStorage:
+
+	localStorage.removeItem("key");
+
+
 Live version here
 
 http://acadview-webd-assignment19.surge.sh/
