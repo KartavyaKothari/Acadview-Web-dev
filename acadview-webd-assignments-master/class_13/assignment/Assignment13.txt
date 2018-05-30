@@ -2,9 +2,37 @@ Let's add some sound in the assignment 11 follow these steps to acheive it.
 
 Step 1: clone the boilerplate code by following command on your terminal/git bash
 
-git clone http://acadview-webd-assignment13.surge.sh/
+git clone https://github.com/kumarsandeep91/HowlerSample
 
 Step 2: Inside downloaded folder open scripts.js file and follow instructions in TODO 1, TODO 2, TODO 3 comment sections
+
+TODO 1: Declare Varibable for sound
+
+	syntax var soundvariablename;
+
+TODO 2:Load more sound Initialize sound variables with the help of Howler Library
+		
+	soundBolaMala = new Howl({  
+      urls: ['http://www.freesfx.co.uk/rx2/mp3s/5/16892_1461333024.mp3'],
+      onload: function () {
+          percentLoaded+=(1/arraySounds.length)*100;
+          console.log("Loaded asset "+soundBolaMala.urls);
+        }
+    }),
+	soundBolaMala = sound variable
+	urls:	      =	sound location from loaded
+	onload: function = calling the function after sound load 
+	
+	........... 
+	.......... more sound loaded as like desciption upper 
+
+TODO 3: Play a sound with .play() method
+	e.g
+	soundBolaMala.play();
+
+TODO 4: same instruction  follow as todo 3 .......
+
+
 
 Live Version Here
 

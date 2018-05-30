@@ -6,6 +6,23 @@ git clone  https://github.com/kumarsandeep91/DynamicGalleryDemo.git
 
 Step 2: Navigate inside downloaded folder and open scripts.js file and follow TODO comments instructions.
 
+step 3:	select HTML element in which you want to  display images by using 
+
+	querySelector() method 
+
+
+step 4: iterate on the array of photos
+
+	photos.forEach( callback function )
+	
+	inside the body of callback function
+
+step 5:  create a new Image object and append it to gallery element.
+        syntax: 
+	var myImage = new Image(100, 200);
+	myImage.src = 'picture.jpg';
+	document.body.appendChild(myImage);
+
 Live version here
 
 http://acadview-webd-assignment18.surge.sh/
