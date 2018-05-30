@@ -6,6 +6,15 @@ https://github.com/kumarsandeep91/GallerySample.git
 
 follow TODO: instructions in scripts.js file
 
+Step 2: loop through the above picture Array and append each picture in the body of HTML page
+	Create a function for image/picture 
+	myPicturesArray.forEach(callback function here)
+	inside callback function perform following tasks:
+	use createElement() method to create a img tag
+	set the attributes of img tag for example image.src = "image path here"
+        use append() method to add image tag in html body
+	document.body.append(image); 
+	
 Live version here
 
 http://acadview-webd-assignment12.surge.sh/
