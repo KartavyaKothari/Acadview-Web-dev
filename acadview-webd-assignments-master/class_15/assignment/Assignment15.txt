@@ -5,6 +5,23 @@ git clone https://github.com/kumarsandeep91/ES6Demo.git
 
 Step 2: Inside ES6Demo folder just downloaded/cloned open index.html and follow TODO comments inside script tag.
 
+TODO : create a ES6 class named Contact with two properties:
+	also define constructor 
+
+
+
+       One way to define a class is using a class declaration. To declare a 		       class, you use the class keyword with the name of the class ("Rectangle"           here).
+	
+	E.g-
+	
+	class Rectangle {
+        	constructor(height, width) {
+    			this.height = height;
+    			this.width = width;
+  	  	}
+	}
+
+
 Live version here
 
 http://acadview-webd-assignment15.surge.sh/
