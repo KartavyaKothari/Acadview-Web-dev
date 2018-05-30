@@ -29,7 +29,7 @@ function displayPhotos(photos) {
     var Gallery = document.querySelector("#gallery");
     Gallery.innerHTML = "";
 
-    // iterate on the array of users
+    // iterate on the array of photos
     photos.forEach(function(currentPhoto) {
         // create a new Image object and append it to gallery element.
         var img = new Image;
